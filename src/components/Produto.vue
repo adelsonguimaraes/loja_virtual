@@ -1,7 +1,7 @@
 <template>
     <div class="box">
         <div class="header">
-            LOJA VIRTUAL | <span class="title-view">{{ title_view }}</span> | <span class="sub-view">{{ sub_view }}</span>
+            <a href="/">LOJA VIRTUAL</a> | <span class="title-view">{{ title_view }}</span> | <span class="sub-view">{{ sub_view }}</span>
         </div>
         <div class="content">
             <template>
