@@ -2,6 +2,7 @@ import { mapGetters, mapActions, mapMutations } from 'vuex';
 
 export default ({
     data:() => ({
+        filtro: '',
         title_view: 'Lista',
     }),
     mounted() {
@@ -12,7 +13,7 @@ export default ({
         ...mapGetters(['produtos', 'obj'])
     },
     methods: {
-        ...mapActions(['getProdutos', 'getProdutoById', 'removeProduto']),
+        ...mapActions(['getProdutos', 'getProdutoById', 'removeProduto', 'filtrarProduto']),
         ...mapMutations(['setSubview']),
         remover(id) {
             this.getProdutoById(id)
@@ -21,6 +22,10 @@ export default ({
         confirmaRemover() {
             this.removeProduto(this.obj.id)
             this.$modal.hide('aviso')
+        },
+        filtrar() {
+            if (this.filtro==='') return this.getProdutos()
+            this.filtrarProduto(this.filtro)
         }
     }
 });

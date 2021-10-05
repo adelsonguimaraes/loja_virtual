@@ -56,7 +56,11 @@ const actions = {
         const produtos = await state.produtos.filter((p) => p.id!==obj.id ? p : obj)
         localStorage.setItem('produtos', JSON.stringify(state.produtos));
         commit('setProdutos', produtos);
-    }
+    },
+    async filtrarProduto({ commit }, nome) {
+        const produtos = await state.produtos.filter((p)=> p.nome.toString().toLowerCase().indexOf(nome.toString().toLowerCase())>=0);
+        commit('setProdutos', produtos);
+    },
 };
 
 export default {

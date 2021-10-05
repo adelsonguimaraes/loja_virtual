@@ -1,26 +1,26 @@
 [
     {
         "id": "1633386952958",
-        "nome": "Telefone",
+        "nome": "Funko Pop Batman",
         "quantidade": "10",
-        "valor": "50.00"
+        "valor": "200.00"
     },
     {
         "id": "1633386959831",
-        "nome": "Carro",
-        "quantidade": "2",
-        "valor": "40000.00"
+        "nome": "Funko Pop Mulher Maravilha",
+        "quantidade": "5",
+        "valor": "150.00"
     },
     {
         "id": "1633386965466",
-        "nome": "Computador",
-        "quantidade": "5",
-        "valor": "1200.00"
+        "nome": "Funko Pop Tux Linux",
+        "quantidade": "6",
+        "valor": "60.00"
     },
     {
         "id": "1633386972580",
-        "nome": "Fone",
-        "quantidade": "9",
-        "valor": "90.00"
+        "nome": "Funko Pop Harry Potter",
+        "quantidade": "12",
+        "valor": "250.00"
     }
 ]

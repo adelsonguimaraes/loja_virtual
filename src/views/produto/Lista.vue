@@ -7,7 +7,7 @@
             <div class="panel-body">
                 <div class="tools">
                     <a class="btn" href="#/produto/cadastro">Novo</a>
-                    <input type="text" name="filter" placeholder="Filtro..">
+                    <input type="text" name="filter" placeholder="Filtro.." v-model="filtro" @input="filtrar">
                 </div>
                 <table>
                     <thead>

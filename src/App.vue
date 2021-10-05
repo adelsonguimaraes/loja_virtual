@@ -17,12 +17,13 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background-color: #C4C4C4;
+  background-color: #3C3C3C;
 }
 
 #app {
   height: inherit;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
