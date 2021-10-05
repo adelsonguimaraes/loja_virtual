@@ -32,6 +32,6 @@ npm run serve
 
 # Autor
 - Adelson Guimarães Monteiro
-- Analista Jr de Sistemas
-- [Linkedin](https://www.linkedin.com/in/adelson-guimaraes-31b31a26/)
-- (Github)[https://github.com/adelsonguimaraes]
+- Analista Jr de Sistemas / FullStack
+- [Linkedin](https://www.linkedin.com/in/adelson-guimaraes-31b31a26/): Minha rede
+- [Github](https://github.com/adelsonguimaraes): Meus projetos
