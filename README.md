@@ -1,24 +1,26 @@
-# loja_virtual
+# Loja Virtual
+Um simples front-end de um crud feito com VueJS.
 
-## Project setup
-```
-yarn install
-```
+# Tecnologias
+- [Vue 2](https://vuejs.org/): Framework
+- [VueX](https://vuex.vuejs.org/): _Gerenciamento dos estados_
+- [Vue Router](https://router.vuejs.org/): _Gerenciamento de rotas_
+- [Vuelidate](https://vuelidate.js.org/): _Validação de campos_
+- [V-Money](https://www.npmjs.com/package/v-money): _Máscara de moeda_
+- [Vue JS Modal](https://www.npmjs.com/package/vue-js-modal): _Modal_
+- [Vue Filter](https://br.vuejs.org/v2/guide/filters.html) _Filtros para view_
+- [Axios](https://www.npmjs.com/package/axios) _Requiquições Http_
 
-### Compiles and hot-reloads for development
+# Instruções para rodar
+1. Passo faça um clone no repositório do projeto
 ```
-yarn serve
+git clone https://github.com/adelsonguimaraes/loja_virtual.git
 ```
-
-### Compiles and minifies for production
+2. Passo, acesse a pasta do projeto e baixe as dependências utilizando o comando
 ```
-yarn build
+npm install
 ```
-
-### Lints and fixes files
+3. Passo, finalizando o passo 2, agora inicie o servidor utilizando o comando
 ```
-yarn lint
+npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
